@@ -1,0 +1,9 @@
+[package]
+name = "tsar-std"
+version = "0.0.1"
+authors = []
+include = ["std", "io"]
+foreign = ["tsar_std_foreign"]
+
+[dependencies]
+core = "https://github.com/adam-mcdaniel/tsar-core"
