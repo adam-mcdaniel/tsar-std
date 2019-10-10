@@ -2,7 +2,7 @@
 name = "tsar-std"
 version = "0.0.1"
 authors = []
-include = ["std", "io"]
+include = ["std", "io", "os"]
 foreign = ["tsar_std_foreign"]
 
 [dependencies]
