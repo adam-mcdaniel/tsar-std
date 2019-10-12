@@ -2,8 +2,8 @@
 name = "tsar-std"
 version = "0.0.1"
 authors = []
-include = ["std", "io", "os"]
-foreign = ["tsar_std_foreign"]
+include = ["std", "io", "time", "os"]
+foreign = ["tsar_std_foreign", "tsar_time_foreign"]
 
 [dependencies]
 core = "https://github.com/adam-mcdaniel/tsar-core"
